@@ -1,6 +1,6 @@
 function findLargest(a, b, c) {
   //your code herem
-return Math.max(a, b, c);
+return (a > b && a > c) ? a : b > c ? b : c;
 }
 
 const num1 = parseInt(prompt("Enter First Number."));
